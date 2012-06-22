@@ -24,4 +24,4 @@ TARGET_KERNEL_SOURCE := kernel/samsung/espresso10
 TARGET_KERNEL_CONFIG := cyanogenmod_p5113_defconfig
 
 # assert
-TARGET_OTA_ASSERT_DEVICE := p5113,GT-P5113
+TARGET_OTA_ASSERT_DEVICE := p5113,GT-P5113,espresso10wifi,espresso10wifixx
