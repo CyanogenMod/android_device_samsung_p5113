@@ -21,4 +21,4 @@ LOCAL_PATH := device/samsung/p5113
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Use the non-open-source parts, if they're present
-$(call inherit-product, vendor/samsung/p51xx/p5113-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/p51xx/p5113-vendor.mk)
